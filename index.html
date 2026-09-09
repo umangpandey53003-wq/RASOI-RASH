@@ -1,1 +1,695 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<title>RASOI RASH Delivery Partner – Join & Earn</title>
+
+<meta name="description"
+content="RASOI RASH Delivery Partner App – Food delivery orders manage करें, flexible working करें और महीने में ₹20,000 तक कमाई का अवसर पाएं।">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial,Helvetica,sans-serif;
+    background:#fff8f4;
+    color:#222;
+    line-height:1.6;
+}
+
+.hero{
+    background:linear-gradient(135deg,#ff4d1f,#ff7a45);
+    color:#fff;
+    text-align:center;
+    padding:45px 18px 55px;
+    border-radius:0 0 35px 35px;
+    box-shadow:0 8px 25px rgba(255,87,34,.25);
+}
+
+.logo{
+    width:92px;
+    height:92px;
+    margin:auto;
+    border-radius:28px;
+    background:#fff;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:48px;
+    box-shadow:0 10px 30px rgba(0,0,0,.18);
+}
+
+.badge{
+    display:inline-block;
+    margin-top:20px;
+    padding:7px 14px;
+    border-radius:50px;
+    background:rgba(255,255,255,.18);
+    font-size:13px;
+    font-weight:bold;
+}
+
+.hero h1{
+    margin-top:12px;
+    font-size:36px;
+    font-weight:900;
+}
+
+.hero h2{
+    font-size:21px;
+    margin-top:3px;
+}
+
+.hero p{
+    max-width:650px;
+    margin:16px auto 24px;
+    font-size:16px;
+    opacity:.96;
+}
+
+.download{
+    display:inline-block;
+    width:92%;
+    max-width:390px;
+    padding:17px 20px;
+    background:#fff;
+    color:#ff5722;
+    text-decoration:none;
+    border-radius:15px;
+    font-size:18px;
+    font-weight:800;
+    box-shadow:0 8px 20px rgba(0,0,0,.18);
+}
+
+.note{
+    margin-top:13px;
+    font-size:12px;
+    opacity:.9;
+}
+
+.container{
+    width:100%;
+    max-width:950px;
+    margin:auto;
+    padding:35px 17px;
+}
+
+.section-title{
+    text-align:center;
+    font-size:28px;
+    margin-bottom:10px;
+}
+
+.section-subtitle{
+    text-align:center;
+    color:#666;
+    max-width:650px;
+    margin:0 auto 28px;
+    font-size:15px;
+}
+
+.earn{
+    background:#fff;
+    border-radius:24px;
+    padding:30px 20px;
+    text-align:center;
+    box-shadow:0 7px 25px rgba(0,0,0,.08);
+    margin-bottom:35px;
+}
+
+.earn-label{
+    color:#666;
+    font-size:15px;
+}
+
+.earn-amount{
+    color:#ff5722;
+    font-size:40px;
+    font-weight:900;
+    margin:5px 0;
+}
+
+.earn p{
+    color:#666;
+    font-size:14px;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(210px,1fr));
+    gap:17px;
+}
+
+.card{
+    background:#fff;
+    padding:25px 18px;
+    border-radius:19px;
+    box-shadow:0 5px 20px rgba(0,0,0,.07);
+    text-align:center;
+}
+
+.icon{
+    font-size:38px;
+    margin-bottom:10px;
+}
+
+.card h3{
+    font-size:18px;
+    margin-bottom:7px;
+}
+
+.card p{
+    color:#666;
+    font-size:14px;
+}
+
+.steps{
+    margin-top:38px;
+}
+
+.step{
+    display:flex;
+    gap:15px;
+    align-items:flex-start;
+    background:#fff;
+    margin-bottom:13px;
+    padding:18px;
+    border-radius:16px;
+    box-shadow:0 4px 15px rgba(0,0,0,.06);
+}
+
+.number{
+    min-width:38px;
+    height:38px;
+    border-radius:50%;
+    background:#ff5722;
+    color:white;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-weight:bold;
+}
+
+.step h3{
+    font-size:17px;
+    margin-bottom:3px;
+}
+
+.step p{
+    color:#666;
+    font-size:14px;
+}
+
+.info{
+    margin-top:38px;
+    background:#fff;
+    border-radius:22px;
+    padding:28px 21px;
+    box-shadow:0 5px 20px rgba(0,0,0,.07);
+}
+
+.info h2{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.info ul{
+    list-style:none;
+}
+
+.info li{
+    padding:10px 0;
+    border-bottom:1px solid #eee;
+    color:#555;
+}
+
+.info li:last-child{
+    border-bottom:none;
+}
+
+.highlight{
+    margin-top:30px;
+    background:#fff0e9;
+    border-left:5px solid #ff5722;
+    padding:20px;
+    border-radius:12px;
+}
+
+.highlight h3{
+    margin-bottom:7px;
+}
+
+.faq{
+    margin-top:38px;
+}
+
+.faq-box{
+    background:#fff;
+    padding:20px;
+    border-radius:16px;
+    margin-bottom:12px;
+    box-shadow:0 4px 15px rgba(0,0,0,.06);
+}
+
+.faq-box h3{
+    font-size:16px;
+    margin-bottom:6px;
+}
+
+.faq-box p{
+    color:#666;
+    font-size:14px;
+}
+
+.final{
+    background:linear-gradient(135deg,#ff5722,#ff7849);
+    color:white;
+    text-align:center;
+    padding:40px 18px;
+    margin-top:20px;
+}
+
+.final h2{
+    font-size:28px;
+}
+
+.final p{
+    margin:10px auto 22px;
+    max-width:600px;
+}
+
+.final a{
+    display:inline-block;
+    background:#fff;
+    color:#ff5722;
+    padding:16px 28px;
+    border-radius:14px;
+    text-decoration:none;
+    font-weight:800;
+    font-size:17px;
+}
+
+footer{
+    background:#1e1e1e;
+    color:#aaa;
+    text-align:center;
+    padding:25px 15px;
+    font-size:13px;
+}
+
+footer strong{
+    color:#fff;
+}
+</style>
+</head>
+
+<body>
+
+<!-- HERO -->
+
+<section class="hero">
+
+    <div class="logo">🛵</div>
+
+    <div class="badge">
+        🚴 RASOI RASH DELIVERY PARTNER
+    </div>
+
+    <h1>RASOI RASH</h1>
+
+    <h2>Delivery Partner App</h2>
+
+    <p>
+        अपने शहर में food delivery करके कमाई करने का अवसर।
+        Orders manage करें, deliveries complete करें और अपने
+        काम को आसान बनाएं।
+    </p>
+
+    <a class="download"
+       href="https://github.com/umangpandey53003-wq/RASOI-RASH/raw/refs/heads/main/base.apk">
+       📱 Download Delivery Partner App
+    </a>
+
+    <div class="note">
+        Android App • Official RASOI RASH Delivery Partner
+    </div>
+
+</section>
+
+
+<div class="container">
+
+    <!-- EARNING -->
+
+    <section class="earn">
+
+        <div class="earn-label">
+            Delivery Partners के लिए
+        </div>
+
+        <div class="earn-amount">
+            ₹20,000 तक*
+        </div>
+
+        <p>
+            महीने में कमाई का अवसर — वास्तविक कमाई
+            orders, working hours, location और अन्य factors पर निर्भर करेगी।
+        </p>
+
+    </section>
+
+
+    <!-- WHY JOIN -->
+
+    <h2 class="section-title">
+        🚴 Delivery Partner क्यों बनें?
+    </h2>
+
+    <p class="section-subtitle">
+        RASOI RASH Delivery Partner App आपके delivery work
+        को simple, organized और convenient बनाने के लिए बनाया गया है।
+    </p>
+
+
+    <div class="cards">
+
+        <div class="card">
+            <div class="icon">💰</div>
+            <h3>कमाई का अवसर</h3>
+            <p>
+                ज्यादा deliveries complete करके अपनी earning
+                बढ़ाने का अवसर।
+            </p>
+        </div>
+
+        <div class="card">
+            <div class="icon">⏰</div>
+            <h3>Flexible Work</h3>
+            <p>
+                अपनी उपलब्धता और सुविधानुसार delivery work
+                करने की सुविधा, जहाँ उपलब्ध हो।
+            </p>
+        </div>
+
+        <div class="card">
+            <div class="icon">📦</div>
+            <h3>Order Management</h3>
+            <p>
+                Assigned orders को आसानी से देखना और manage करना।
+            </p>
+        </div>
+
+        <div class="card">
+            <div class="icon">🔔</div>
+            <h3>Order Notifications</h3>
+            <p>
+                नए orders और delivery updates की जानकारी प्राप्त करें।
+            </p>
+        </div>
+
+        <div class="card">
+            <div class="icon">📍</div>
+            <h3>Delivery Details</h3>
+            <p>
+                Customer और delivery से जुड़ी जरूरी जानकारी
+                एक जगह देखें।
+            </p>
+        </div>
+
+        <div class="card">
+            <div class="icon">⚡</div>
+            <h3>Simple App</h3>
+            <p>
+                आसान interface ताकि delivery work को
+                जल्दी समझा और manage किया जा सके।
+            </p>
+        </div>
+
+    </div>
+
+
+    <!-- HOW IT WORKS -->
+
+    <section class="steps">
+
+        <h2 class="section-title">
+            📲 कैसे काम करता है?
+        </h2>
+
+        <p class="section-subtitle">
+            Delivery Partner बनने और app इस्तेमाल करने का आसान process
+        </p>
+
+
+        <div class="step">
+            <div class="number">1</div>
+            <div>
+                <h3>App Download करें</h3>
+                <p>
+                    नीचे दिए Download button से RASOI RASH
+                    Delivery Partner App download करें।
+                </p>
+            </div>
+        </div>
+
+
+        <div class="step">
+            <div class="number">2</div>
+            <div>
+                <h3>Registration करें</h3>
+                <p>
+                    App में उपलब्ध registration/joining process
+                    को पूरा करें और मांगी गई जानकारी दें।
+                </p>
+            </div>
+        </div>
+
+
+        <div class="step">
+            <div class="number">3</div>
+            <div>
+                <h3>Delivery Orders प्राप्त करें</h3>
+                <p>
+                    उपलब्ध होने पर assigned delivery orders
+                    app में देखें।
+                </p>
+            </div>
+        </div>
+
+
+        <div class="step">
+            <div class="number">4</div>
+            <div>
+                <h3>Food Pickup करें</h3>
+                <p>
+                    Restaurant से customer का order pickup करें
+                    और delivery के लिए निकलें।
+                </p>
+            </div>
+        </div>
+
+
+        <div class="step">
+            <div class="number">5</div>
+            <div>
+                <h3>Customer को Deliver करें</h3>
+                <p>
+                    Order को दिए गए delivery details के अनुसार
+                    customer तक पहुंचाएं।
+                </p>
+            </div>
+        </div>
+
+
+        <div class="step">
+            <div class="number">6</div>
+            <div>
+                <h3>Delivery Complete करें</h3>
+                <p>
+                    Successful delivery के बाद order को app में
+                    complete करें।
+                </p>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- REQUIREMENTS -->
+
+    <section class="info">
+
+        <h2>📋 Delivery Partner के लिए जरूरी बातें</h2>
+
+        <ul>
+
+            <li>✅ Android smartphone होना चाहिए</li>
+
+            <li>✅ Active mobile number होना चाहिए</li>
+
+            <li>✅ Internet connection की आवश्यकता होगी</li>
+
+            <li>✅ Delivery के लिए आवश्यक vehicle की जरूरत हो सकती है</li>
+
+            <li>✅ Customer और restaurant से professional व्यवहार रखें</li>
+
+            <li>✅ Order को सुरक्षित और समय पर deliver करने का प्रयास करें</li>
+
+            <li>✅ Registration के समय मांगी गई सही जानकारी दें</li>
+
+        </ul>
+
+    </section>
+
+
+    <!-- BENEFITS -->
+
+    <section class="info">
+
+        <h2>⭐ आपको क्या मिलेगा?</h2>
+
+        <ul>
+
+            <li>📱 आसान Delivery Partner App</li>
+
+            <li>📦 Assigned Orders की जानकारी</li>
+
+            <li>🔔 Delivery Updates और Notifications</li>
+
+            <li>📍 Delivery Information</li>
+
+            <li>⚡ Simple और आसान Interface</li>
+
+            <li>🚴 Delivery work को manage करने की सुविधा</li>
+
+        </ul>
+
+    </section>
+
+
+    <!-- IMPORTANT -->
+
+    <div class="highlight">
+
+        <h3>ℹ️ कमाई के बारे में जरूरी जानकारी</h3>
+
+        <p>
+            ₹20,000 तक की earning एक संभावित earning opportunity
+            है, कोई guaranteed salary नहीं। वास्तविक earning
+            आपके शहर, available orders, completed deliveries,
+            working hours और लागू payment terms पर निर्भर करेगी।
+        </p>
+
+    </div>
+
+
+    <!-- FAQ -->
+
+    <section class="faq">
+
+        <h2 class="section-title">
+            ❓ Frequently Asked Questions
+        </h2>
+
+
+        <div class="faq-box">
+
+            <h3>क्या App free में download कर सकते हैं?</h3>
+
+            <p>
+                हाँ, इस page से RASOI RASH Delivery Partner APK
+                download की जा सकती है।
+            </p>
+
+        </div>
+
+
+        <div class="faq-box">
+
+            <h3>Delivery Partner का काम क्या होगा?</h3>
+
+            <p>
+                उपलब्ध होने पर restaurant से food orders pickup करके
+                customer तक deliver करना होगा।
+            </p>
+
+        </div>
+
+
+        <div class="faq-box">
+
+            <h3>क्या ₹20,000 की earning guaranteed है?</h3>
+
+            <p>
+                नहीं। ₹20,000 तक की earning केवल संभावित opportunity
+                के रूप में दी गई है। वास्तविक earning अलग-अलग हो सकती है।
+            </p>
+
+        </div>
+
+
+        <div class="faq-box">
+
+            <h3>क्या smartphone जरूरी है?</h3>
+
+            <p>
+                हाँ, Delivery Partner App इस्तेमाल करने के लिए
+                compatible Android smartphone और internet connection
+                की आवश्यकता होगी।
+            </p>
+
+        </div>
+
+
+        <div class="faq-box">
+
+            <h3>क्या सभी शहरों में delivery available है?</h3>
+
+            <p>
+                Delivery availability RASOI RASH की service coverage
+                और आपके location पर निर्भर करेगी।
+            </p>
+
+        </div>
+
+    </section>
+
+</div>
+
+
+<!-- FINAL CTA -->
+
+<section class="final">
+
+    <h2>🚴 आज ही शुरू करें</h2>
+
+    <p>
+        RASOI RASH Delivery Partner App download करें और
+        available delivery opportunities के लिए तैयार रहें।
+    </p>
+
+    <a href="https://github.com/umangpandey53003-wq/RASOI-RASH/raw/refs/heads/main/base.apk">
+        📱 DOWNLOAD APP
+    </a>
+
+</section>
+
+
+<footer>
+
+    <strong>RASOI RASH</strong><br>
+
+    Delivery Partner App<br><br>
+
+    © 2026 RASOI RASH. All Rights Reserved.
+
+</footer>
+
+</body>
+</html>
